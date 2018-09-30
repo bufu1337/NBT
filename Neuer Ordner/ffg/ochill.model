@@ -1,0 +1,119 @@
+title:string=ochill
+author:string=nbt2ascii
+mats:table={
+  i:string=chisel:limestoneextra
+  m:string=chisel:marbleextra
+  d:string=minecraft:dirt
+  l:string=minecraft:lever
+  s:string=minecraft:sand
+  a:string=minecraft:sandstone
+  t:string=minecraft:stone
+  e:string=opencomputers:assembler
+  c:string=opencomputers:caseCreative
+  h:string=opencomputers:charger
+  k:string=opencomputers:keyboard
+  r:string=opencomputers:screen3
+  o:string=solarfluxreborn:solar3
+}
+startPoint:list=[
+  number=11
+  number=10
+  number=1
+  string=^
+]
+defaultDropPoint:list=[
+  number=5
+  number=5
+]
+levels:list=[
+  table={
+    name:string=level 1
+    blocks:string=@github
+    matCounts:table={
+      chisel:marbleextra:number=3
+      minecraft:stone:number=94
+      minecraft:sandstone:number=3
+    }
+  }
+  table={
+    name:string=level 2
+    blocks:string=@github
+    matCounts:table={
+      minecraft:dirt:number=2
+      minecraft:stone:number=91
+      chisel:limestoneextra:number=2
+      minecraft:sandstone:number=5
+    }
+  }
+  table={
+    name:string=level 3
+    blocks:string=@github
+    matCounts:table={
+      minecraft:dirt:number=17
+      minecraft:stone:number=70
+      minecraft:sandstone:number=13
+    }
+  }
+  table={
+    name:string=level 4
+    blocks:string=@github
+    matCounts:table={
+      minecraft:sand:number=10
+      minecraft:dirt:number=40
+      minecraft:stone:number=42
+      minecraft:sandstone:number=8
+    }
+  }
+  table={
+    name:string=level 5
+    blocks:string=@github
+    matCounts:table={
+      minecraft:sand:number=18
+      minecraft:dirt:number=78
+      minecraft:stone:number=3
+    }
+  }
+  table={
+    name:string=level 6
+    blocks:string=@github
+    matCounts:table={
+      minecraft:sand:number=18
+      minecraft:dirt:number=77
+    }
+  }
+  table={
+    name:string=level 7
+    blocks:string=@github
+    matCounts:table={
+      minecraft:sand:number=16
+      minecraft:dirt:number=62
+    }
+  }
+  table={
+    name:string=level 8
+    blocks:string=@github
+    matCounts:table={
+      minecraft:sand:number=8
+      minecraft:dirt:number=41
+    }
+  }
+  table={
+    name:string=level 9
+    blocks:string=@github
+    matCounts:table={
+      opencomputers:charger:number=1
+      opencomputers:caseCreative:number=1
+      minecraft:lever:number=1
+      solarfluxreborn:solar3:number=1
+      opencomputers:assembler:number=1
+    }
+  }
+  table={
+    name:string=level 10
+    blocks:string=@github
+    matCounts:table={
+      opencomputers:screen3:number=1
+      opencomputers:keyboard:number=1
+    }
+  }
+]
